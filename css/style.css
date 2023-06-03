@@ -1,3 +1,23 @@
 * {
   box-sizing: border-box;
 }
+
+.box {
+  width: 700px;
+  background: linear-gradient(to bottom right, #fff, #ffc778);
+  margin: 100px auto;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+}
+
+.box__content-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.box__content-text {
+  line-height: 1.6;
+}
